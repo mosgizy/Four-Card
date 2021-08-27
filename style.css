@@ -156,11 +156,11 @@ body {
         position: relative;
         height: 100vh;
         align-items: center;
-        min-width: 1200px;
+        min-width: 920px;
     }
 
     .card {
-        width: 46ch;
+        width: 35ch;
     }
 
     .content-card>* {
@@ -170,7 +170,7 @@ body {
     .card1 {
         position: absolute;
         left: 1rem;
-        top:11rem;
+        top:13rem;
     }
 
     .card2 {
@@ -182,7 +182,7 @@ body {
 
     .card3 {
         position: absolute;
-        bottom: 18rem;
+        bottom: 19.5rem;
         left: 50%;
         transform: translate(-50%);
     }
@@ -190,7 +190,7 @@ body {
     .card4 {
         position: absolute;
         right: 1rem;
-        top: 11rem;
+        top: 13rem;
     }
 
 }
