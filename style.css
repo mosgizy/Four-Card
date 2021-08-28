@@ -79,7 +79,7 @@ body {
 
 .card {
     background-color: white;
-    height: 300px;
+    height: 280px;
     /* outline: 1px solid red; */
     /* margin-top: 2rem; */
     padding: 2rem;
@@ -146,7 +146,13 @@ body {
     color: var(--grayish-blue);
 }
 
-@media screen and (min-width:1200px) {
+.middle{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media screen and (min-width:600px) {
     .wrapper {
         width: 100%;
     }
@@ -156,41 +162,16 @@ body {
         position: relative;
         height: 70vh;
         align-items: center;
-        min-width: 920px;
+        max-width: 1020px;
     }
 
     .card {
-        width: 35ch;
+       max-width: 40ch;
+       min-width: 40ch;
+       /* width: 40ch; */
     }
 
     .content-card>* {
         flex-basis: 100%;
     }
-
-    .card1 {
-        position: absolute;
-        left: 1rem;
-        top:13rem;
-    }
-
-    .card2 {
-        position: absolute;
-        top: 0rem;
-        left: 50%;
-        transform: translate(-50%);
-    }
-
-    .card3 {
-        position: absolute;
-        bottom: -1rem;
-        left: 50%;
-        transform: translate(-50%);
-    }
-
-    .card4 {
-        position: absolute;
-        right: 1rem;
-        top: 13rem;
-    }
-
 }
